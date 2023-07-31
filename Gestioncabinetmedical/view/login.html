@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page d'authentification</title>
+  <link rel="stylesheet" href="../cssSeparer/index.css">
+  <link rel="stylesheet" href="../cssSeparer/header.css">
+  <link rel="stylesheet" href="../cssSeparer/Fiche.css">
+  <link rel="stylesheet" href="../cssSeparer/login.css">
+
+  
+</head>
+<body>
+<header>
+        <figure>
+          <img src="../image/logo3.png" />
+          <div class="header-text">
+            <h1 class="nav-logo-title1">Hassania Med</h1>
+            <h5 class="nav-logo-title2">Ensemble pour une meilleure vie</h5>
+          </div>
+        </figure>
+      </header>
+  <div class="container" style="width: 300px;margin-top: 10%;margin-left: 37%;">
+    <h2>Authentification</h2>
+    <form name="login" id="login" action="../controller/controller_patient.php?action=login" method="post">
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="motdepasse">Mot de passe:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <input type="submit" value="Se connecter" class="btn">
+    </form>
+  </div>
+  <div class="link-container" style="margin-left: 670px;">
+    <a href="inscription.html">inscription</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* h1{
+color: #1191fa;
+text-align:center;
+margin-bottom:5%;
+margin-top:5%;
+text-transform:uppercase;
+font-weight: bold;
+letter-spacing:1px;
+text-shadow: 0 8px 12px #1191fa;
+
+} */
+.container h1{
+    color: #1191fa;
+    font-size:26px;
+    font-weight:600;
+    text-align:center;
+    padding-bottom:6px;
+    color:white;
+    text-shadow:2px 2px 2px #1191fa;
+    border-bottom:solid 1px #1191fa;
+    
+  
+  }
+  /* *********animation********** */
+ .container h1::after{
+    content:"";
+    left:0;
+    border-left:2px solid white;
+    font-size:26px;
+    font-weight:600;
+    text-align:center;
+    padding-bottom:6px;
+    color:#1191fa;
+    text-shadow:2px 2px 2px #1191fa;
+    border-bottom:solid 1px #1191fa;
+    animation:typing 2s steps(10) infinite;
+  
+  }
+  @keyframes typing{
+    100%{
+      left:100%;
+      margin: 0 -35px 0 60px;
+    }
+  }
+  @keyframes slide{
+    100%{
+      top:-261px;
+    }
+  }
+.single-service{
+    background: white;
+    padding:60px;
+    height: 400px;
+    transition:all 0.9s ease 0s;
+
+}
+.single-service i{
+    color:#1191fa;
+    font-size:80px;
+}
+
+   .single-service h3{
+    font-size:22px;
+    text-transform:uppercase;
+font-weight: bold;
+   } 
+
+   
+   
+
+   .single-service p{
+    display:none;
+    transition: all 0.9s ease 0s;
+    color:white;
+    font-weight: 700;
+
+   }
+   .single-service:hover p{
+    display:block;
+    color:black;
+   }
+
+   .single-service:hover i{
+    font-size:120px;
+    transition:0.9s;
+    color:white;
+   }
+
+   .single-service:hover{
+    border-radius:1em;
+    background: #1191fa;
+    color:white;
+   }
+
+
+   header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../image/entet.png);
+
+  }
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+  img{
+    /* float:left; */
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 40px;
+  }
+  
+  
+  .nav-menu li {
+    margin-right: 20px;
+  }
+  
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #347cf9;
+  }
+  .nav-menu li a:hover {
+    text-decoration: none;
+    color: rgb(3, 155, 3);
+  }
+  
+  .header-text {
+    margin-left: 20px;
+  }
+  
+  .nav-logo-title1 {
+    margin: 0;
+    color:#347cf9;
+  }
+  .nav-logo-title2 {
+    margin: 0;
+    color:rgb(3, 155, 3);
+  }

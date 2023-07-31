@@ -1,0 +1,122 @@
+body{
+  display:block;
+  margin-bottom: 60px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../image/entet.png);
+
+}
+
+figure{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;}
+img{
+  /* float:left; */
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  /* margin: 0; */
+  margin-right: 40px;
+}
+
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #347cf9;
+}
+.nav-menu li a:hover {
+  text-decoration: none;
+  color: rgb(3, 155, 3);
+}
+
+.header-text {
+  margin-left: 20px;
+}
+
+.nav-logo-title1 {
+  margin: 0;
+  color:#347cf9;
+}
+.nav-logo-title2 {
+  margin: 0;
+  color:rgb(3, 155, 3);
+}
+/* ************************** */
+/* .pagination {
+  display: inline-block;
+  height:35px;
+  border-radius: 1em;
+  align-items: center;
+  margin:20px;
+
+}
+
+.pagination a {
+  text-align: center;
+  border-left: 1px white solid;
+  border-right: 1px white solid;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+ 
+  margin:  4px;
+}
+
+.pagination a:hover {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+} */
+
+section{
+display: flex;
+justify-content: center;
+  background-image:url(entet.png);;
+  height:35px;
+  margin-top: 15px;
+  border-radius: 1em;
+  align-items: center;
+}
+
+section li{
+  float:left;
+  width:140px;
+  height: 35px;
+  background-color:black ;
+  text-align: center;
+  border-left: 1px white solid;
+  border-right: 1px white solid;
+  line-height: 34px; /*?*/
+  list-style:none ;
+  color:white;
+  display:block;
+
+}
+section li a{
+  text-decoration: none;
+  color:white;
+}
+/* section li :hover{
+  background-color: #4CAF50;
+  color: white;
+} */
+.pagination a:hover {
+  background-color: #4CAF50;
+}

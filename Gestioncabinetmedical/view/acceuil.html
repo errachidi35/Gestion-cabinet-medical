@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    <script src="https://kit.fontawesome.com/4967bc9bc5.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../image/logo3.png" />
+    <link type="text/css" rel="stylesheet" 
+href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+ <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../cssSeparer/acceuil.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="../image/logo3.png" />
+            <div class="header-text">
+              <h1 class="nav-logo-title1">Hassania Med</h1>
+              <h5 class="nav-logo-title2">Ensemble pour une meilleure vie</h5>
+            </div>
+          </figure>
+          <nav>
+            <ul class="nav-menu">
+              <li><a href="acceuil.html"><i class="fa-solid fa-house" style="color: #347cf9;"></i><strong>Accueil</strong></a></li>
+              <form method="post" action="../controller/controller_patient.php?action=deconnexion">
+                <a class="fa-solid fa-right-from-bracket" href="../index.html" style="color: #347cf9;" type="submit" title="Deconnexion">Deconnexion</a>
+              </form>             
+            </ul>
+          </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <h1>Bienvenue  </h1>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="single-service text-center" onclick=" window.location.href = 'gestionRendezVous.php'">
+                    <i  class="fa fa-calendar"></i>
+                    <h3>rendez-vous</h3>
+                    <hr>
+                    <p>reservez un rendez-vous facilement</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="single-service text-center" onclick=" window.location.href = 'dossierMed.php'">
+                    <i  class="fa fa-folder"></i>
+                    <h3>Dossier Medical</h3>
+                    <hr>
+                    <p>consultez votre fiche ,vos analyses et ordonnances</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="single-service text-center" onclick=" window.location.href = 'Paiment 1.php'">
+                    <i  class="fa fa-credit-card"></i>
+                    <h3>paiement</h3>
+                    <hr>
+                    <p>payer votre facture facilement</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

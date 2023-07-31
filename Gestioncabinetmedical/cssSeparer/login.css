@@ -1,0 +1,69 @@
+/* CSS pour le formulaire d'inscription */
+.container {
+    
+    margin-top: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius:10px;
+    box-shadow:inset -2px 2px 2px rgb(0, 0, 0);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #347cf9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .link-container {
+    width: 100px;
+    font-size:26px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius:10px;
+    box-shadow:inset -2px 2px 2px rgb(0, 0, 0);
+  }
+  
+  .link-container a {
+    text-decoration: none;
+    color: #000000;
+
+  }
+  
+  
